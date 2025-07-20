@@ -76,13 +76,13 @@ Ultimately, ITW aims to empower anyone running an LLM to make an informed decisi
 
 	    *   **Task 2: Resilience & Repair:** (As before) Give it broken JSON and see if it can fix it. This tests robustness.
 
-	    *   **Task 3: Schema Generation (New Idea):** Give the model a natural language description of data and ask it to **create the optimal JSON schema**.
+	    *   **Task 3: Schema Generation:** Give the model a natural language description of data and ask it to **create the optimal JSON schema**.
 
 			* *Example:* "I need to store information about users, including their name, a list of their past orders with order ID and date, and whether they are a premium member. Generate a JSON schema for this."
 
 			* *Why?* This tests a higher-level business skill. Can the model design the data structures, not just fill them?
 
-		* **Task 4: Schema Interpretation (New Idea):** Give the model a complex JSON schema and ask it to **generate a diverse set of valid examples**.
+		* **Task 4: Schema Interpretation:** Give the model a complex JSON schema and ask it to **generate a diverse set of valid examples**.
 
 			* *Why?* This tests if the model truly *understands* the constraints (required fields, data types, nesting rules) to the point where it can create mock data, a crucial skill for development and testing.
 
