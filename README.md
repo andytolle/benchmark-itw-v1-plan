@@ -1,4 +1,5 @@
 **Problem statement**
+
 Current LLM evaluation methods are failing businesses by creating a dangerous disconnect between benchmark scores and real-world performance. This gap is driven by four critical, unaddressed failures in testing
 1. The unquantified impact of **quantization** on a model's core reasoning abilities.
 
@@ -11,6 +12,7 @@ Current LLM evaluation methods are failing businesses by creating a dangerous di
 Collectively, these blind spots mean organizations cannot accurately predict a model's operational effectiveness, leading to the selection of inadequate models and the failure of high-stakes automation projects.
 
 **Elevator pitch:**
+
 While other benchmarks tell you if a model is "smart" in a lab, they don't tell you if it will succeed or fail at the job you need it to do. This creates a massive gap for businesses and local users who find that a top-ranking model still can't handle their real-world tasks.
 
 I porpose: **ITW (In The Wild) v1** a new kind of benchmark designed to close that gap. It simulates the actual challenges of business automation, where 'good' models are not only academic exercises, but a delicate blend between speed, cost and its ability to solve real world tasks.
@@ -24,6 +26,7 @@ I porpose: **ITW (In The Wild) v1** a new kind of benchmark designed to close th
 With ITW, you don't just know which model is the smartest. You know which model is the most reliable, efficient, and ready for *your* business processes.
 
 **The Fundamental Goal**
+
 The fundamental goal of the ITW (In The Wild) benchmark is **to bridge the critical gap between academic LLM leaderboards and real-world business utility.**
 
 It achieves this by moving beyond abstract metrics to provide users and organizations with clear, actionable diagnostics on how a model will actually behave when deployed. It specifically measures performance against the three biggest real-world hurdles: resource constraints (quantization), information overload (large context windows), and automation readiness (structured output).
