@@ -47,7 +47,7 @@ Ultimately, ITW aims to empower anyone running an LLM to make an informed decisi
     *   **Define a Realistic Business Scenario:** Start with a central task that requires synthesis. For example: *"Based on the provided project documentation, identify the top 3 risks to the project timeline and provide the name of the person responsible for mitigating each."*
 
     *   **Construct the Context Document Set:** Create a large context by concatenating several simulated document snippets.
-	    *   **Scattered Information (Core of Alternative 2):** The necessary information (e.g., a risk about supply chain delays, a risk about team burnout, a risk about budget cuts, and the names of the associated managers) is not in one place. It's scattered across simulated emails, meeting minutes, and project charters.
+	    *   **Scattered Information:** The necessary information (e.g., a risk about supply chain delays, a risk about team burnout, a risk about budget cuts, and the names of the associated managers) is not in one place. It's scattered across simulated emails, meeting minutes, and project charters.
 	    *   **Plausible Noise:** The context is filled with relevant-sounding but ultimately irrelevant information (e.g., details from a different project, outdated meeting notes, general company news). This tests noise filtering.
 	    *   **Positional Testing (Core of "Needle in the Haystack"):** Strategically place the critical pieces of information.
 	        *   Place one key fact near the very beginning of the context.
