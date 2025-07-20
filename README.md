@@ -12,7 +12,7 @@ Collectively, these blind spots mean organizations cannot accurately predict a m
 
 While other benchmarks tell you if a model is "smart" in a lab, they don't tell you if it will succeed or fail at the job you need it to do. This creates a massive gap for businesses and local users who find that a top-ranking model still can't handle their real-world tasks.
 
-I porpose: **ITW (In The Wild) v1** a new kind of benchmark designed to close that gap. It simulates the actual challenges of business automation, where 'good' models are not only academic exercises, but a delicate blend between speed, cost and its ability to solve real world tasks.
+I porpose: **ITW (In The Wild) v1** a benchmark designed to close that gap. It simulates the actual challenges of business automation, where 'good' models are not only academic exercises, but a delicate blend between speed, cost and its ability to solve real world tasks.
 
 * It's built to evaluate local quantized versions with full precision models, so you can finally see the true performance cost of **quantization** on your own machine.
 
