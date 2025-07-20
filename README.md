@@ -72,9 +72,9 @@ Ultimately, ITW aims to empower anyone running an LLM to make an informed decisi
 
   
 
-	    *   **Task 1: Extraction & Population (Simple & Complex):** As before, extract data to populate simple and complex schemas. This tests the basics.
+	    *   **Task 1: Extraction & Population (Simple & Complex):** extract data to populate simple and complex schemas. This tests the basics.
 
-	    *   **Task 2: Resilience & Repair:** (As before) Give it broken JSON and see if it can fix it. This tests robustness.
+	    *   **Task 2: Resilience & Repair:** Give it broken JSON and see if it can fix it. This tests robustness.
 
 	    *   **Task 3: Schema Generation:** Give the model a natural language description of data and ask it to **create the optimal JSON schema**.
 
