@@ -1,12 +1,9 @@
 **Problem statement**
 
-Current LLM evaluation methods are failing businesses by creating a dangerous disconnect between benchmark scores and real-world performance. This gap is driven by four critical, unaddressed failures in testing
+Current LLM evaluation methods are failing businesses by creating a dangerous disconnect between benchmark scores and real-world performance. This gap seems to be driven by four critical, unaddressed failures in testing
 1. The unquantified impact of **quantization** on a model's core reasoning abilities.
-
 2. The erosion of **synthesis and accuracy** as context windows fill with noise.
-
 3. The inability to reliably generate the **structured output** mandatory for automation.
-
 4. Widespread **data contamination** in public benchmarks, rendering scores untrustworthy.
 
 Collectively, these blind spots mean organizations cannot accurately predict a model's operational effectiveness, leading to the selection of inadequate models and the failure of high-stakes automation projects.
