@@ -11,7 +11,7 @@ Collectively, these blind spots mean organizations cannot accurately predict a m
 
 **Proposed Solution: ITW (In The Wild) v1 Benchmark**
 
-While other benchmarks tell you if a model is "smart" in a lab, they don't predict its success on the specific jobs you need it to do. To bridge this critical gap, we propose **ITW (In The Wild) v1**, a benchmark designed to simulate the actual challenges of business automation.
+While most benchmarks tell you if a model is "academically smart" in a lab, they don't predict its success on solving your real world business process. To bridge this critical gap, we propose **ITW (In The Wild) v1**, a benchmark designed to simulate the actual challenges of business automation.
 
 The fundamental goal of ITW is to shift the evaluation focus from "How intelligent is this model?" to "How effective and reliable is this model for my specific task?" It achieves this by providing clear, actionable diagnostics on how a model will behave when deployed, focusing on three key areas:
 
