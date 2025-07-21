@@ -13,7 +13,7 @@ Collectively, these blind spots mean organizations cannot accurately predict a m
 
 While most benchmarks tell you if a model is "academically smart" in a lab, they don't predict its success on solving your real world business process. To bridge this critical gap, we propose **ITW (In The Wild) v1**, a benchmark designed to simulate the actual challenges of business automation.
 
-The fundamental goal of ITW is to shift the evaluation focus from "How intelligent is this model?" to "How effective and reliable is this model for my specific task?" It achieves this by providing clear, actionable diagnostics on how a model will behave when deployed, focusing on three key areas:
+The fundamental goal of ITW is to shift the evaluation focus from "How intelligent is this model?" to "How effective can I use this model's intelligence to automate a practical bunsiness process?" It achieves this by providing clear, actionable diagnostics on how a model will behave when deployed in real word tasks, focusing on three key areas:
 
 1.  **Measures the True Cost of Quantization:** ITW is built to evaluate local quantized versions of models against their full-precision counterparts. This allows users to finally see the true performance cost of quantization on their own machines, balancing the delicate blend of speed, cost, and task-solving ability.
 
