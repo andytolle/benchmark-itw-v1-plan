@@ -3,7 +3,7 @@
 Current Large Language Model (LLM) evaluation methods are failing businesses by creating a dangerous disconnect between benchmark scores and real-world performance. From talks with companies, I get the impression this gap seems to be driven by four critical domains, of which users and developpers alike underestimate the impact on LLMs performances **In The Wild**:
 
 *   **The Unquantified Impact of Quantization:** The effect of model compression on core reasoning abilities is not being measured, leaving businesses unsure about the performance of smaller, more efficient models.
-*   **Erosion of Synthesis and Accuracy:** As context windows fill with irrelevant information ("noise"), a model's ability to synthesize information and maintain accuracy degrades, a scenario common in real-world document analysis.
+*   **Erosion of Synthesis and Accuracy:** As context windows fill with progressively growing irrelevant information ("noise"), a model's ability to synthesize information and maintain accuracy degrades. It's a common scenario in real-world document analysis, but the context size where the model starts to degrade is often unknown.
 *   **Inability to Generate Structured Output:** Many models fail to reliably produce the structured data formats (like JSON or XML) that are mandatory for successful automation.
 *   **Data Contamination in Public Benchmarks:** Widespread data contamination in public benchmarks renders many scores untrustworthy and not indicative of true performance.
 
@@ -17,7 +17,7 @@ The fundamental goal of ITW is to shift the evaluation focus from "How intellige
 
 1.  **Measures the True Cost of Quantization:** ITW is built to evaluate local quantized versions of models against their full-precision counterparts. This allows users to finally see the true performance cost of quantization on their own machines, balancing the delicate blend of speed, cost, and task-solving ability.
 
-2.  **Tests Performance in Noisy Contexts:** The benchmark specifically tests a model's ability to synthesize scattered information from large, noisy documents. It assesses the model's capacity to connect the dots like a real analyst would, rather than just finding a single, isolated fact.
+2.  **Tests Performance in Progressively Growing Noisy Contexts:** The benchmark specifically tests a model's ability to synthesize scattered information from large, noisy documents. It assesses the model's capacity to connect the dots like a real analyst would, rather than just finding a single, isolated fact. Measuring the practical breaking points of where the size of context starts to water the model's output.
 
 3.  **Introduces a Multi-Vector Score for Automation Readiness:** For any given task, ITW provides a **Multi-Vector Score**. This innovative approach doesn't just give you one number. It separately reports on:
     *   **Reasoning Score:** Did the model get the answer right?
