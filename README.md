@@ -4,7 +4,7 @@ Current Large Language Model (LLM) evaluation methods are failing businesses by 
 
 *   **The Unquantified Impact of Quantization:** The effect of model compression on core reasoning abilities is not being measured, leaving businesses unsure about the performance of smaller, more efficient models.
 *   **Erosion of Synthesis and Accuracy:** As context windows fill with progressively growing irrelevant information ("noise"), a model's ability to synthesize information and maintain accuracy degrades. It's a common scenario in real-world document analysis, but the context size where the model starts to degrade is often unknown.
-*   **Inability to Generate Structured Output:** Many models fail to reliably produce the structured data formats (like JSON or XML) that are mandatory for successful automation.
+*   **Inability to Generate Structured Output:** A model can be smart, but if it fails to reliably produce the structured data formats, then this intelligence will be lost in the business processes we're trying to automate.
 *   **Data Contamination in Public Benchmarks:** Widespread data contamination in public benchmarks renders many scores untrustworthy and not indicative of true performance.
 
 Collectively, these blind spots mean organizations cannot accurately predict a model's operational effectiveness. This leads to the selection of inadequate models and the failure of high-stakes automation projects.
